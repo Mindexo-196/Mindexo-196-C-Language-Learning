@@ -21,10 +21,10 @@ int main()
     int n = digit;
     int output = 0;
 
-    for ( int n = digit ; n > 0 ;n-- )
+    for ( int n = digit ; n > 0 ; n-- )
     {   
         
-        int power = (int)pow(10, n - 1);
+        int power = (int) pow (10, n - 1);
 
         /*int power = 1;
         for (int x = 0; x < n-1 ; x++)
