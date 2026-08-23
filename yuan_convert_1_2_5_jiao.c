@@ -30,6 +30,7 @@ int main()
                 if ( ichi + ni*2 + go*5 == total)
                 {
                     printf("可换算为%d个5角 %d个2角 %d个1角\n", go , ni , ichi);
+                    //goto out; //直接跳出多层嵌套循环
                 }
                 
             }
@@ -38,7 +39,7 @@ int main()
         
     }
     //感觉可以做减速程序
-
+    //out:
 
     return 0;
 }
