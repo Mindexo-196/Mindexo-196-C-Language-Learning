@@ -24,7 +24,7 @@ int main()
                     {
                         min = cnt_y;
                         goto out;
-                    } else
+                    }// else
                     {
                         continue;
                     }
