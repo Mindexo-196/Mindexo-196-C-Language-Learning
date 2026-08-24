@@ -1,4 +1,8 @@
 *.exe
+*.o
+*.obj
 .vs/
 out/
 build/
+tempCodeRunnerFile.c
+
