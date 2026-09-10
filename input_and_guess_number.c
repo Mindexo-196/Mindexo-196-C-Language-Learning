@@ -43,7 +43,7 @@ int main()
     int guess = 0;
     int cnt = 0;
     
-    printf("请输入一个数:");
+    //printf("请输入一个数:");
     scanf("%d %d" , &number , &n);
 
     do {
@@ -60,7 +60,8 @@ int main()
         else if (guess > number)
         {
             printf("Too big\n");
-        } else if
+        }
+        else if (guess == number)
         {
             if (cnt == 1)
             {
@@ -79,6 +80,7 @@ int main()
                 printf("Game Over\n");
             }
         }
+        
     } while ( cnt<=n );
         
         
