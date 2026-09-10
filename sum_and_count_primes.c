@@ -12,6 +12,43 @@
 # include <stdio.h>
 int main()
 {
+    int high = 0;
+    int low = 0;
+    //printf("请输入一个区间:");
+    scanf("%d %d", &low , &high);
+
+    int adder = 0;
+    int sum = 0;
+    int cnt = low;
+    
+    for ( cnt = low; cnt <= high; cnt++)
+    {
+        int judge = 1;
+
+        if (cnt == 1)
+        {
+            continue;
+        }
+
+        int cal = cnt-1;
+
+        for (int cal = cnt-1; cal > 1; cal--)
+        {
+            int Prime_judge = cnt%cal;
+            if (Prime_judge == 0 )
+            {
+                judge = 0;
+                break;
+            }
+        }
+        if (judge == 1)
+            {
+                adder++;
+                sum = sum + cnt;
+            }
+    }
+
+    printf("%d %d", adder , sum);
     
 
     return 0;
