@@ -60,7 +60,7 @@ int main()
         else if (guess > number)
         {
             printf("Too big\n");
-        }
+        }  
         else if (guess == number)
         {
             if (cnt == 1)
