@@ -151,7 +151,7 @@ int main(void)
     {
         for (j = 0; j < size; j++)
         {
-            printf("row %d column %d: ", i, j);
+            printf("row %d column %d: ", j, i);
 
             scanf("%d", &board[i][j]);
 
