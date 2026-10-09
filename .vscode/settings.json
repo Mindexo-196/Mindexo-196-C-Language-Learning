@@ -57,5 +57,6 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "python-envs.defaultEnvManager": "ms-python.python:system"
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "C_Cpp.errorSquiggles": "disabled"
 }
