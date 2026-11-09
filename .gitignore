@@ -8,3 +8,4 @@ tempCodeRunnerFile.c
 .venv/
 
 .vscode/c_cpp_properties.json
+output/change_calculator
