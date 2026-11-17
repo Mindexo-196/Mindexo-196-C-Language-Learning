@@ -4,6 +4,7 @@
 .vs/
 out/
 build/
+output/
 tempCodeRunnerFile.c
 .venv/
 
